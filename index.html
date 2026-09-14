@@ -184,6 +184,12 @@
   .tab-visual{aspect-ratio:1/1;max-width:260px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto;position:relative;}
   .tab-visual .ring{position:absolute;inset:0;border-radius:50%;border:1.5px dashed var(--pink);opacity:.5;}
   .tab-visual .core{width:62%;height:62%;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;}
+  .tab-visual .core.photo{width:82%;height:82%;overflow:hidden;background:#fff;box-shadow:0 10px 24px rgba(0,0,0,.08);}
+  .tab-visual .core.photo img{width:100%;height:100%;object-fit:cover;display:block;}
+  .tab-visual.dual{max-width:300px;}
+  .tab-visual.dual .core-pair{width:100%;height:100%;display:flex;align-items:center;justify-content:center;gap:12px;}
+  .tab-visual.dual .core-pair .photo{width:47%;aspect-ratio:1/1;border-radius:50%;overflow:hidden;background:#fff;box-shadow:0 10px 24px rgba(0,0,0,.08);}
+  .tab-visual.dual .core-pair .photo img{width:100%;height:100%;object-fit:cover;display:block;}
   .quote-card{background:var(--yellow-pale);border-left:3px solid var(--yellow-deep);padding:24px 26px;border-radius:4px 16px 16px 4px;font-family:'Zen Old Mincho',serif;font-size:17px;line-height:1.85;margin-top:14px;}
   .quote-card small{display:block;margin-top:10px;font-family:'Noto Sans JP',sans-serif;font-size:11.5px;color:var(--ink-soft);}
 
@@ -546,7 +552,7 @@
             <h3>約5〜7mmのちょうど良さ</h3>
             <p>トレーニング時のご褒美にも使いやすい、小さめサイズに仕上げています。</p>
           </div>
-          <div class="tab-visual"><div class="ring"></div><div class="core" style="background:var(--yellow);"><svg viewBox="0 0 40 40" fill="none" stroke="#fff" stroke-width="1.6" style="width:42%;height:42%;"><path d="M8 20 L20 8 L32 20 L20 32 Z"/></svg></div></div>
+          <div class="tab-visual"><div class="ring"></div><div class="core photo"><img src="img/Gemini_Generated_Image_t6j7yit6j7yit6j7.jpg" alt="生地を均一な太さにカットする様子" loading="lazy"></div></div>
         </div>
         <div class="tab-panel" data-panel="2">
           <div>
@@ -560,21 +566,21 @@
             <h3>無添加へのこだわり</h3>
             <p>余分なものを加えず、無添加で仕上げています。</p>
           </div>
-          <div class="tab-visual"><div class="ring"></div><div class="core" style="background:var(--sky);"><svg viewBox="0 0 40 40" fill="none" stroke="#fff" stroke-width="1.6" style="width:42%;height:42%;"><path d="M20 8 C28 14 28 26 20 32 C12 26 12 14 20 8 Z"/></svg></div></div>
+          <div class="tab-visual"><div class="ring"></div><div class="core photo"><img src="img/Gemini_Generated_Image_xzpkdvxzpkdvxzpk.jpg" alt="無添加のシンプルな素材、卵黄" loading="lazy"></div></div>
         </div>
         <div class="tab-panel" data-panel="4">
           <div>
             <h3>お野菜の栄養を、そのまま</h3>
             <p>かぼちゃやほうれん草の栄養を取り入れた、わんちゃんの体にやさしいおやつです。</p>
           </div>
-          <div class="tab-visual"><div class="ring"></div><div class="core" style="background:var(--pink);"><svg viewBox="0 0 40 40" fill="none" stroke="#fff" stroke-width="1.6" style="width:42%;height:42%;"><path d="M20 6 v28 M8 20 h24"/><circle cx="20" cy="20" r="14"/></svg></div></div>
+          <div class="tab-visual dual"><div class="ring"></div><div class="core-pair"><div class="photo"><img src="img/Gemini_Generated_Image_cx34lgcx34lgcx34.jpg" alt="かぼちゃのおやつ"></div><div class="photo"><img src="img/Gemini_Generated_Image_j08isnj08isnj08i.jpg" alt="ほうれん草のおやつ"></div></div></div>
         </div>
         <div class="tab-panel" data-panel="5">
           <div>
             <h3>米粉でグルテンフリー</h3>
             <p>小麦を使わず米粉を使用。お腹にもやさしい仕立てです。</p>
           </div>
-          <div class="tab-visual"><div class="ring"></div><div class="core" style="background:var(--yellow);"><svg viewBox="0 0 40 40" fill="none" stroke="#fff" stroke-width="1.6" style="width:42%;height:42%;"><path d="M20 30 C10 30 8 20 12 12 C16 16 18 12 20 8 C22 12 24 16 28 12 C32 20 30 30 20 30 Z"/></svg></div></div>
+          <div class="tab-visual"><div class="ring"></div><div class="core photo"><img src="img/Gemini_Generated_Image_j5jk9tj5jk9tj5jk.jpg" alt="計量した米粉" loading="lazy"></div></div>
         </div>
       </div>
     </div>
